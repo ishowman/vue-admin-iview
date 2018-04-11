@@ -12,8 +12,9 @@
                 :open-names="openedSubmenuArr"
                 :menu-list="menuList">
                 <div slot="top" class="logo-con">
-                    <img v-show="!shrink"  src="http://www.51xnb.com/resource/index/LOGO@3x.png" key="max-logo" />
-                    <img v-show="shrink" src="http://www.51xnb.com/resource/index/LOGO.png" key="min-logo" />
+                    <img src="http://www.51xnb.com/resource/index/LOGO@3x.png" key="max-logo" />
+                    <!-- <img v-show="!shrink"  src="http://www.51xnb.com/resource/index/LOGO@3x.png" key="max-logo" />
+                    <img v-show="shrink" src="http://www.51xnb.com/resource/index/LOGO.png" key="min-logo" /> -->
                 </div>
             </shrinkable-menu>
         </div>
@@ -47,7 +48,7 @@
                                     <DropdownItem name="loginout" divided>退出登录</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
-                            <Avatar :src="avatorPath" style="background: #619fe7;margin-left: 10px;"></Avatar>
+                            <Avatar :src="avatorPath" style="margin-left: 10px;"></Avatar>
                         </Row>
                     </div>
                 </div>

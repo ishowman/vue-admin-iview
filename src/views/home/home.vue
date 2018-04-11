@@ -182,7 +182,7 @@ import dataSourcePie from './components/dataSourcePie.vue';
 import visiteVolume from './components/visiteVolume.vue';
 import serviceRequests from './components/serviceRequests.vue';
 import userFlow from './components/userFlow.vue';
-import countUp from './components/countUp.vue';
+// import countUp from './components/countUp.vue';
 import inforCard from './components/inforCard.vue';
 import mapDataTable from './components/mapDataTable.vue';
 import toDoListItem from './components/toDoListItem.vue';
@@ -195,7 +195,7 @@ export default {
         visiteVolume,
         serviceRequests,
         userFlow,
-        countUp,
+        // countUp,
         inforCard,
         mapDataTable,
         toDoListItem

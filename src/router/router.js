@@ -81,6 +81,9 @@ export const appRouter = [
         icon: 'lock-combination',
         title: '权限测试页',
         name: 'accesstest',
+        meta: {
+            login: true // 在match里匹配到路由对象，可以查看            
+        },
         access: 0,
         component: Main,
         children: [
@@ -135,7 +138,7 @@ export const appRouter = [
             {
                 path: 'area-linkage',
                 icon: 'ios-more',
-                name: 'area-linkage',
+                name: 'area-linkage-name',
                 title: '城市级联',
                 component: () => import('@/views/my-components/area-linkage/area-linkage.vue')
             },
